@@ -7,7 +7,7 @@ typedef struct{
 }SqList;
 
 //声明函数
-// void InitSqList(SqList &L);
+void InitSqList(SqList &L);
 
 void InitSqList(SqList &L){
     for (int i = 0; i < L.length; i++)
